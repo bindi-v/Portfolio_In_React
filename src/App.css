@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+:root {
+--primary-white: #fff;
+--primary-orange: #f9ab00;
+--primary-dark: rgba(255, 255, 255, 0);
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +45,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem !important;
+  color: var(--primary-white) !important;
+}
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+nav ul li {
+text-transform: bold;
+}
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  margin-right: 12px;
+  margin-left: 12px;
+  border-bottom: 3px solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-bottom: 3px solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 3px solid var(--primary-orange);
 }
