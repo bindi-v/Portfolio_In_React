@@ -12,20 +12,9 @@ body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,26 +27,22 @@ body {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 6rem !important;
+  max-width: 15.25rem;
+  height: 3rem !important;
   color: var(--primary-white) !important;
 }
-nav a.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.6px;
-  cursor: pointer;
+.navbar a.logo {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 10px;
 }
+.navbar a.logo span{
+  color: var(--primary-orange);
+  transition: all 0.3s ease;
+}
+
 nav ul li {
 text-transform: bold;
 }
@@ -68,10 +53,55 @@ text-transform: bold;
   border-bottom: 3px solid var(--primary-dark);
 }
 
+.navbar-nav li a.nav-link{
+  list-style: none;
+  display: inline-block;
+}
+.navbar-nav li a.nav-link{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar-nav li a:hover{
+  color: var(--primary-orange);
+}
+
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
   border-bottom: 3px solid var(--primary-orange);
 }
 
 .navbar-nav > li > a:hover {
   border-bottom: 3px solid var(--primary-orange);
+}
+
+/*--------------------HEADER STYLE---------------------*/
+.home {
+  display: flex;
+  background: url("./assets/my_pic2.jpg") no-repeat;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+.home .max-width {
+  margin: auto 0 auto 30px;
+}
+.home .home-content .text-1{
+  font-size: 27px;
+}
+.home .home-content .text-2{
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .home-content .text-3{
+  font-size: 40px;
+  margin: 5px 0;
+}
+.home .home-content .text-3 span{
+  color: var(--primary-orange);
+  font-weight: 500;
 }
