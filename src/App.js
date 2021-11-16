@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from './components/Footer';
 import About from './components/About';
 import Work from './components/Work';
+import Skills from './components/Skills';
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
     <Header />
     <About />
     <Work />
+    <Skills />
     <Footer />
     </>
   );

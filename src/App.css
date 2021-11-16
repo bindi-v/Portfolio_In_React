@@ -243,6 +243,49 @@ transform: scale(1.05);
   font-weight: 500;
   margin : 10px 0 7px 0;
 }
+/*----------------SKILLS STYLE---------------*/
+.skills .title::after{
+  content : 'what i know';
+}
+.skills .skills-content .column{
+  width : calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+  text-align: justify;
+}
+.skills .skills-content .right .bars{
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+  display : flex;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+.skills .skills-content .right span{
+  font-size: 18px;
+  font-weight: 500;
+}
+.skills .skills-content .right .line{
+  height :5px;
+  width : 100%;
+  background: lightgrey; 
+  position: relative;
+}
+.skills .skills-content .right .line::before{
+  content : '';
+  position: absolute;
+  height : 100%;
+  width : 80%;
+  left : 0;
+  top : 0;
+  background: var(--primary-orange);
+}
 
 /*-----------------FOOTER STYLE------------------*/
 footer {
