@@ -8,6 +8,7 @@ import About from './components/About';
 import Work from './components/Work';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
     <Work />
     <Skills />
     <Projects />
+    <Contact />
     <Footer />
     </>
   );
