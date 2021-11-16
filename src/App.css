@@ -105,3 +105,20 @@ text-transform: bold;
   color: var(--primary-orange);
   font-weight: 500;
 }
+
+/*-----------------FOOTER STYLE------------------*/
+footer {
+  background: #111;
+  padding : 20px 23px;
+  color : #fff;
+  text-align: right;
+  justify-content: space-between;
+}
+footer span{
+  color : rgb(231, 73, 73);
+  text-decoration: none;
+}
+footer span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
