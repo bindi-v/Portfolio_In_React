@@ -2,14 +2,14 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/Navbar';
-import Home from "./components/Home";
+import Home from './components/Home';
 import Footer from './components/Footer';
 import About from './components/About';
 import Work from './components/Work';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   
@@ -18,14 +18,16 @@ function App() {
     <div className="App">
 
     <Navbar />
-    <Home />
+    
     <Routes>
-    <Route  path="/" exact component={<Home/>} /> 
-    <Route  path="/about" exact component={<About/>} />
-    <Route exact path="/work" component={<Work/>} /> 
-    <Route exact path="/skills" component={<Skills/>} />
-    <Route exact path="/projects" component={<Projects/>} />
-    <Route exact path="/contact" component={<Contact/>} />
+    <Route  path='/' element={<Home/>} /> 
+    <Route  path='/about' element={<About/>} />
+    <Route path='/work' element={<Work/>} /> 
+    <Route path='/skills' element={<Skills/>} />
+    <Route path='/projects' element={<Projects/>} />
+    <Route path='/contact' element={<Contact/>} />
+    {/*<Route path="*" element={<NotFound/>}/>*/}
+
     </Routes>
     <Footer />
     </div>
