@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => {
+const Home = () => {
     return (
         <div className="home">
         <div className="max-width">
@@ -15,4 +15,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Home;
