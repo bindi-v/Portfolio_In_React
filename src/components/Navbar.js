@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FaBars } from "react-icons/fa"
@@ -16,27 +16,27 @@ import { FaBars } from "react-icons/fa"
       <ul className="navbar-nav ">
         <li className="nav-item active">
           {/*<a className="nav-link" href="#header">Home<span className="sr-only"></span></a>*/}
-          <Link to="/" >Home</Link> 
+          <NavLink exact activeClassName="active-link" to="/" >Home</NavLink> 
         </li>
         <li className="nav-item">
           {/*<a className="nav-link" href="#about">About</a>*/}
-          <Link to="/about" >About</Link>
+          <NavLink activeClassName="active" to="/about" >About</NavLink>
         </li>
         <li className="nav-item">
           {/*<a className="nav-link" href="#work">Work</a>*/}
-          <Link to="/work">Work</Link>
+          <NavLink activeClassName="active" to="/work">Work</NavLink>
         </li>
         <li className="nav-item">
           {/*<a className="nav-link" href="#skills">Skills</a>*/}
-          <Link to="/skills">Skills</Link>
+          <NavLink activeClassName="active" to="/skills">Skills</NavLink>
         </li>
         <li className="nav-item">
          {/* <a className="nav-link" href="#projects">Projects</a>*/}
-         <Link to="/projects">Projects</Link> 
+         <NavLink activeClassName="active" to="/projects">Projects</NavLink> 
         </li>
         <li className="nav-item">
           
-          <Link to="/contact">Contact</Link>
+          <NavLink activeClassName="active" to="/contact">Contact</NavLink>
         </li>
       </ul>
       </div>

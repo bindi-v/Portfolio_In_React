@@ -46,6 +46,9 @@ body {
 nav ul li {
 text-transform: bold;
 }
+.active-link{
+  color: var(--primary-orange);
+}
 .navbar-nav > li > a {
   color: var(--primary-white) !important;
   margin-right: 12px;
