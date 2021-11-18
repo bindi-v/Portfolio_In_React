@@ -1,7 +1,4 @@
 import React from 'react';
-
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FaUser, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
@@ -22,12 +19,12 @@ const Contact = () => {
     </div>
     <div className="row">
         <div className="info">
-        <div className="head"><a href="mailto:bindi.vaghela@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope style={{ color: "orange"}} />  Contact</a></div>
-        <div className="sub-title">You can reach me..</div>
+        <div className="head"><a href="mailto:bindi.vaghela@gmail.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope style={{ color: "orange"}} />  Contact</a>
+        </div>
+        <div className="sub-title">You can mail me..</div>
         </div>
     </div>
-    
-    
     </div>
     </div>
     <div className="column right">
@@ -35,20 +32,16 @@ const Contact = () => {
     <form action="#" >
     <div className="fields">
     <div className="field name">
-    {/*<label className="form-label" for="exampleName">Name</label>*/}
     <input type="text"  placeholder="Name" required/>
     </div>
     <div className="field email">
-    {/*<label for="exampleInputEmail1" className="form-label">Email address</label>*/}
     <input type="email"  placeholder="Email" required />
     </div>
     </div>
     <div className="field">
     <input type="text"  placeholder="Subject" required />
-
     </div>
     <div className="field textarea">
-    {/*<label for="exampleSubject" className="form-label">Subject</label>*/}
     <textarea cols="30" rows="10" placeholder="Message here..." required ></textarea>
     </div>
     <div className="button">
