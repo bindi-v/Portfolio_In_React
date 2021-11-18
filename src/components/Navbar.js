@@ -14,23 +14,23 @@ import { FaBars } from "react-icons/fa";
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ">
         <li className="nav-item active">
-          <NavLink exact activeClassName="active-link" to="/" >Home</NavLink> 
+          <NavLink activeclassname="active-link" to="/" >Home</NavLink> 
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="active" to="/about" >About</NavLink>
+          <NavLink activeclassname="active" to="/about" >About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="active" to="/work">Work</NavLink>
+          <NavLink activeclassname="active" to="/work">Work</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="active" to="/skills">Skills</NavLink>
+          <NavLink activeclassname="active" to="/skills">Skills</NavLink>
         </li>
         <li className="nav-item">
-         <NavLink activeClassName="active" to="/projects">Projects</NavLink> 
+         <NavLink activeclassname="active" to="/projects">Projects</NavLink> 
         </li>
         <li className="nav-item">
           
-          <NavLink activeClassName="active" to="/contact">Contact</NavLink>
+          <NavLink activeclassname="active" to="/contact">Contact</NavLink>
         </li>
       </ul>
       </div>

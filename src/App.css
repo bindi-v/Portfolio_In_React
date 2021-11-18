@@ -32,6 +32,7 @@ body {
   max-width: 15.25rem;
   height: 3rem !important;
   color: var(--primary-white) !important;
+  
 }
 .navbar a.logo {
   color: #fff;
@@ -46,6 +47,7 @@ body {
 
 nav ul li {
 text-transform: bold;
+justify-content: space-between;
 }
 .active-link{
   color: var(--primary-orange);
@@ -55,6 +57,7 @@ text-transform: bold;
   margin-right: 12px;
   margin-left: 12px;
   border-bottom: 3px solid var(--primary-dark);
+  
 }
 
 .navbar-nav li a.nav-link{
