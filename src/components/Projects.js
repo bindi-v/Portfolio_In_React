@@ -7,11 +7,14 @@ import Project1Img from "../assets/Project2.png";
 import Project2Img from "../assets/Note_Taker.png";
 import Project3Img from "../assets/Team_Profile_Generator.png";
 import Project4Img from "../assets/Code_Quiz.gif";
-import Project5Img from "../assets/Password_Generater.png";
+import Project5Img from "../assets/Password_Generator.png";
 import Project6Img from "../assets/WorkdayScheduler.gif";
 import Project7Img from "../assets/WeatherDashboard.png";
 import Project8Img from "../assets/img.webp";
 import Project9Img from "../assets/TwoCityComparisonTool.png";
+import Project10Img from "../assets/PB2.png";
+import Project11Img from "../assets/TechBlog.gif";
+import Project12Img from "../assets/WT.png";
 import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
@@ -22,7 +25,27 @@ const Projects = () => {
             <h2 className="title">My Projects</h2>
 
         <OwlCarousel className="projects carousel owl-carousel" loop margin={10} nav>  
-           
+                <div className="card item">
+                    <div className="box">
+                    <img src={ Project10Img } alt="Progressive Budget homepage img" />
+                    <div className="text"><a href="https://mysterious-atoll-10659.herokuapp.com/" target="_blank" rel="noopener noreferrer">Progressive Budget</a></div>
+                    <a href="https://github.com/bindi-v/Progressive_Budget" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
+                </div>
+                </div>
+                <div className="card item">
+                    <div className="box">
+                    <img src={ Project11Img } alt="Tech Blog gif" />
+                    <div className="text"><a href="https://salty-oasis-80559.herokuapp.com/" target="_blank" rel="noopener noreferrer">Tech Blog</a></div>
+                    <a href="https://github.com/bindi-v/Tech_Blog" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
+                </div>
+                </div>
+                <div className="card item">
+                    <div className="box">
+                    <img src={ Project12Img } alt="Workout Tracker img" />
+                    <div className="text"><a href="https://sheltered-escarpment-30558.herokuapp.com/?id=618adb28125de300160483d4" target="_blank" rel="noopener noreferrer">Workout Tracker</a></div>
+                    <a href="https://github.com/bindi-v/Workout_Tracker" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
+                </div>
+                </div>
                 <div className="card item">
                     <div className="box">
                     <img src={ Project1Img } alt="Homeschool HookUp homepage screenshot" />
