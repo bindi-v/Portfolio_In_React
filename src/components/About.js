@@ -10,7 +10,7 @@ const About = () => {
                     <img src={ MyImg } alt="MyImg" />
                 </div>
                 <div className="column right">
-                    <div class="text">I'm Bindu and I'm a <span>Web Developer</span></div>
+                    <div className="text">I'm Bindu and I'm a <span>Web Developer</span></div>
                     <p> I am a full stack Web Developer with a Mathematics Background.
                          Recently earned a certificate in full stack web development from the
                         Georgia Institute of Technology, with newly developed skills in JavaScript, CSS, React.js, 
