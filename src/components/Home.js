@@ -1,7 +1,8 @@
 import React from 'react';
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 const Home = () => {
     return (
+        <div>
         <div className="home">
         <div className="max-width">
             <div className="home-content">
@@ -10,7 +11,13 @@ const Home = () => {
                 <div className="text-3">And I am a<span> Web Developer</span></div>
                 
             </div>
+            <div className=" info" >
+        <div className="head"><a href="https://github.com/bindi-v" target="_blank" rel="noopener noreferrer"><FaGithub style={{ color: "orange"}} />  GitHub</a></div>
+        <div className="head"> <a href="https://www.linkedin.com/in/bindu-vaghela-123826214/" target="_blank" rel="noopener noreferrer"><FaLinkedin  style={{ color: "orange"}} />  LinkedIn</a></div>
+        </div>
         </div>  
+        </div>
+        
         </div>
     )
 }

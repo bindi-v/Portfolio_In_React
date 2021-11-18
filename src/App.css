@@ -104,6 +104,9 @@ text-transform: bold;
   color: var(--primary-orange);
   font-weight: 500;
 }
+.home .info .head{
+  color: var(--primary-dark);
+}
 /*------------------About Style-------------------*/
 section {
   padding : 100px 0;

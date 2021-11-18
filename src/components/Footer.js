@@ -7,9 +7,10 @@ const Footer = () => {
     return (
         <div>
          <footer>
+             
         <span>Created By Bindu Vaghela | <FaCopyright style={{ color: "#fff"}} /> 2021 All Right Reserved</span>
     </footer>   
-        </div>
+    </div>   
     )
 }
 
