@@ -52,7 +52,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The following animation shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/react-portfolio.gif)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./src/assets/react-portfolio.gif)
 
 ## Table Of Contents
 
@@ -95,7 +95,7 @@ If you have any questions, please reach out to my Github.
 
 ### Deployed Link
 
-* [The URL of the functional, deployed application.]()
+* [The URL of the functional, deployed application.](https://bindi-v.github.io/Portfolio_In_React/)
 
 * [The URL of the GitHub repository](https://github.com/bindi-v/Portfolio_In_React)
 
