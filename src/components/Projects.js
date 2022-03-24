@@ -6,11 +6,11 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Project1Img from "../assets/Project2.png";
 import Project2Img from "../assets/Note_Taker.png";
 import Project3Img from "../assets/Team_Profile_Generator.png";
-import Project4Img from "../assets/Code_Quiz.gif";
-import Project5Img from "../assets/Password_Generator.png";
+import Project4Img from "../assets/dashboard.png";
+import Project5Img from "../assets/homepage.png";
 import Project6Img from "../assets/WorkdayScheduler.gif";
 import Project7Img from "../assets/WeatherDashboard.png";
-import Project8Img from "../assets/img.webp";
+import Project8Img from "../assets/Recipe.png";
 import Project9Img from "../assets/TwoCityComparisonTool.png";
 import Project10Img from "../assets/PB2.png";
 import Project11Img from "../assets/TechBlog.gif";
@@ -30,6 +30,13 @@ const Projects = () => {
                     <img src={ Project10Img } alt="Progressive Budget homepage img" />
                     <div className="text"><a href="https://mysterious-atoll-10659.herokuapp.com/" target="_blank" rel="noopener noreferrer">Progressive Budget</a></div>
                     <a href="https://github.com/bindi-v/Progressive_Budget" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
+                </div>
+                </div>
+                <div className="card item">
+                    <div className="box">
+                    <img src={ Project4Img } alt="tech news dashboard png" />
+                    <div className="text"><a href="https://java-tech-news-api.herokuapp.com/" target="_blank" rel="noopener noreferrer">Java Tech News API</a></div>
+                    <a href="https://github.com/bindi-v/tech-news-java-api" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
                 </div>
                 </div>
                 <div className="card item">
@@ -69,16 +76,9 @@ const Projects = () => {
                 </div>
                 <div className="card item">
                     <div className="box">
-                    <img src={ Project4Img } alt="code quiz gif" />
-                    <div className="text"><a href="https://bindi-v.github.io/Code_Quiz/" target="_blank" rel="noopener noreferrer">Code Quiz</a></div>
-                    <a href="https://github.com/bindi-v/Code_Quiz" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
-                </div>
-                </div>
-                <div className="card item">
-                    <div className="box">
-                    <img src={ Project5Img } alt="Password-Generator img" />
-                    <div className="text"><a href="https://bindi-v.github.io/Password-Generator/" target="_blank" rel="noopener noreferrer">Password-Generator</a></div>
-                    <a href="https://github.com/bindi-v/Password-Generator" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
+                    <img src={ Project5Img } alt="Get your Goal img" />
+                    <div className="text"><a href="https://github.com/bindi-v/get-your-goal-react-front" target="_blank" rel="noopener noreferrer">GetYourGoal</a></div>
+                    <a href="https://github.com/bindi-v/get-your-goal-back-end" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
                 </div>
                 </div>
                 <div className="card item">
@@ -97,9 +97,9 @@ const Projects = () => {
                 </div>
                 <div className="card item">
                     <div className="box">
-                    <img src={ Project8Img } alt="Professional Readme.md Generator" />
-                    <div className="text"><a href="https://github.com/bindi-v/Professional_README_Generator" target="_blank" rel="noopener noreferrer">Professional Readme.md Generator</a></div>
-                    <a href="https://github.com/bindi-v/Professional_README_Generator" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
+                    <img src={ Project8Img } alt="Recipe React front" />
+                    <div className="text"><a href="https://github.com/bindi-v/recipe-service-java-back-end" target="_blank" rel="noopener noreferrer">Recipe Service</a></div>
+                    <a href="https://github.com/bindi-v/recipe-react-front-end" target="_blank" rel="noopener noreferrer"><FaGithub  size={28} style={{ color: "#fff" }} /></a>
                 </div>
                 </div>
                 <div className="card item">

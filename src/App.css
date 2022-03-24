@@ -47,7 +47,7 @@ body {
 
 nav ul li {
 text-transform: bold;
-justify-content: space-between;
+
 }
 .active-link{
   color: var(--primary-orange);
@@ -458,7 +458,7 @@ footer {
   justify-content: space-between;
 }
 footer span{
-  color : rgb(231, 73, 73);
+  color : var(--primary-orange);
   text-decoration: none;
 }
 footer span:hover{

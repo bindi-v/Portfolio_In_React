@@ -8,7 +8,7 @@ const Footer = () => {
         <div>
          <footer>
              
-        <span>Created By Bindu Vaghela | <FaCopyright style={{ color: "#fff"}} /> 2021 All Right Reserved</span>
+        <span>Created By Bindu Vaghela | <FaCopyright style={{ color: 'orange'}} /> 2021 All Right Reserved</span>
     </footer>   
     </div>   
     )
