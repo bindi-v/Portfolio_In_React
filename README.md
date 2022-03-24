@@ -95,7 +95,7 @@ If you have any questions, please reach out to my Github.
 
 ### Deployed Link
 
-* [The URL of the functional, deployed application.](https://bindi-v.github.io/Portfolio_In_React/)
+* [The URL of the functional, deployed application on gitHub pages.](https://bindi-v.github.io/Portfolio_In_React/)
 
 * [The URL of the GitHub repository](https://github.com/bindi-v/Portfolio_In_React)
 
