@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Portfolio_In_React/static/css/main.c7430159.chunk.css",
+    "main.js": "/Portfolio_In_React/static/js/main.c27f4bd9.chunk.js",
+    "main.js.map": "/Portfolio_In_React/static/js/main.c27f4bd9.chunk.js.map",
+    "runtime-main.js": "/Portfolio_In_React/static/js/runtime-main.344162b1.js",
+    "runtime-main.js.map": "/Portfolio_In_React/static/js/runtime-main.344162b1.js.map",
+    "static/css/2.88bb0b2d.chunk.css": "/Portfolio_In_React/static/css/2.88bb0b2d.chunk.css",
+    "static/js/2.399d52f0.chunk.js": "/Portfolio_In_React/static/js/2.399d52f0.chunk.js",
+    "static/js/2.399d52f0.chunk.js.map": "/Portfolio_In_React/static/js/2.399d52f0.chunk.js.map",
+    "static/js/3.fde81ced.chunk.js": "/Portfolio_In_React/static/js/3.fde81ced.chunk.js",
+    "static/js/3.fde81ced.chunk.js.map": "/Portfolio_In_React/static/js/3.fde81ced.chunk.js.map",
+    "index.html": "/Portfolio_In_React/index.html",
+    "static/css/2.88bb0b2d.chunk.css.map": "/Portfolio_In_React/static/css/2.88bb0b2d.chunk.css.map",
+    "static/css/main.c7430159.chunk.css.map": "/Portfolio_In_React/static/css/main.c7430159.chunk.css.map",
+    "static/js/2.399d52f0.chunk.js.LICENSE.txt": "/Portfolio_In_React/static/js/2.399d52f0.chunk.js.LICENSE.txt",
+    "static/media/My_Img.59345523.jpeg": "/Portfolio_In_React/static/media/My_Img.59345523.jpeg",
+    "static/media/Note_Taker.7852f536.png": "/Portfolio_In_React/static/media/Note_Taker.7852f536.png",
+    "static/media/PB2.80f2e74b.png": "/Portfolio_In_React/static/media/PB2.80f2e74b.png",
+    "static/media/Project2.66b89ef0.png": "/Portfolio_In_React/static/media/Project2.66b89ef0.png",
+    "static/media/Recipe.2c94d9ba.png": "/Portfolio_In_React/static/media/Recipe.2c94d9ba.png",
+    "static/media/Team_Profile_Generator.399fd7d8.png": "/Portfolio_In_React/static/media/Team_Profile_Generator.399fd7d8.png",
+    "static/media/TechBlog.a3bcf94f.gif": "/Portfolio_In_React/static/media/TechBlog.a3bcf94f.gif",
+    "static/media/TwoCityComparisonTool.26685641.png": "/Portfolio_In_React/static/media/TwoCityComparisonTool.26685641.png",
+    "static/media/WT.1e0a1af8.png": "/Portfolio_In_React/static/media/WT.1e0a1af8.png",
+    "static/media/WeatherDashboard.4a26ca1e.png": "/Portfolio_In_React/static/media/WeatherDashboard.4a26ca1e.png",
+    "static/media/WorkdayScheduler.5b3f62cd.gif": "/Portfolio_In_React/static/media/WorkdayScheduler.5b3f62cd.gif",
+    "static/media/dashboard.18c8a2d3.png": "/Portfolio_In_React/static/media/dashboard.18c8a2d3.png",
+    "static/media/homepage.14ebad65.png": "/Portfolio_In_React/static/media/homepage.14ebad65.png",
+    "static/media/App.css": "/Portfolio_In_React/static/media/my_pic2.30b68ff5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.344162b1.js",
+    "static/css/2.88bb0b2d.chunk.css",
+    "static/js/2.399d52f0.chunk.js",
+    "static/css/main.c7430159.chunk.css",
+    "static/js/main.c27f4bd9.chunk.js"
+  ]
+}
